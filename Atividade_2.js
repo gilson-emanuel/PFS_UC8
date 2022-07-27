@@ -4,7 +4,7 @@ let opcao = 's'
 while (opcao == 's')
 {
     let nome = prompt("Digite o nome do participante: ")
-    let idade = prompt("Diite a idade do participante: ")
+    let idade = prompt("Digite a idade do participante: ")
     if(idade >= 18){
         if(lista.length < 100){
             alert("Cadastro realizado com sucesso!")
